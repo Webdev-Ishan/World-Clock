@@ -1,12 +1,13 @@
 
 body{
-background-color: rgb(201, 210, 210);
+background-image: url('download\ \(1\).jpg');
 }
 
 .navbar {
     background-color:rgb(60, 60, 242);
     padding: 1em;
     text-align: center;
+    border: 2px solid white;
   }
   
   .navbar ul {
@@ -37,6 +38,7 @@ background-color: rgb(201, 210, 210);
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+  
   }
   
   .card {
@@ -76,4 +78,8 @@ background-color: rgb(201, 210, 210);
     color: black;
     background-color: yellow;
 
+  }
+  a{
+    text-decoration: none;
+    color: white;
   }
