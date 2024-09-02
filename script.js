@@ -61,3 +61,23 @@ Russia.innerHTML=d.toLocaleTimeString('en-US', {
   });
 
 },1000)
+
+
+const logo= document.getElementById('logo');
+logo.addEventListener('click', () => {
+
+if(logo.style.width==="40px" && logo.style.height==="40px"){
+logo.style.width="80px"
+logo.style.height="80px"
+}
+
+else{
+
+  logo.style.width="40px"
+  logo.style.height="40px"
+
+}
+
+})
+
+
